@@ -1,0 +1,73 @@
+.UplaodGet {
+  padding-bottom: 100px;
+  padding-top: 40px;
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 120px;
+    .blcok {
+      display: flex;
+      flex-direction: column;
+      width: 320px;
+      img {
+        width: 320px;
+        object-fit: cover;
+        height: 400px;
+      }
+      h1 {
+        font-size: 30px;
+        margin-top: 10px;
+      }
+      .buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        button {
+          width: 150px;
+          background: blue;
+          border: none;
+          height: 35px;
+          font-size: 16px;
+          color: white;
+          cursor: pointer;
+        }
+        .delbtn {
+          background: red;
+        }
+      }
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 22px;
+      width: 320px;
+      input {
+        width: 100%;
+        height: 35px;
+        font-size: 16px;
+        padding-left: 20px;
+        border-radius: 10px;
+        outline: none;
+      }
+      .buttonser {
+        display: flex;
+        gap: 20px;
+        button {
+          width: 150px;
+          height: 35px;
+          font-size: 16px;
+          border: none;
+          color: white;
+          background: blue;
+          border-radius: 10px;
+          cursor: pointer;
+        }
+        .btncancel {
+          background: red;
+        }
+      }
+    }
+  }
+}
